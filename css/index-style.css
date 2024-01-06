@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-color);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.col-md-4{
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+:root {
+    --main-color: #1E202B;
+    --second-color: #009AD8;
+}
+
+.main-bg-color {
+    background-color: var(--main-color);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-size: 14px;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover {
+    color: var(--second-color);
+    border: 2px solid var(--second-color);
+    border-radius: 25px;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--second-color);
+    border: 2px solid var(--second-color);
+    border-radius: 25px;
+}
+
+section {
+    background-image: url(../image/banner.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+input[type="search"] {
+    padding: 20px 50px 20px 20px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+}
+
+input[type="submit"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    color: white;
+    background-color: var(--second-color);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+.date{
+    padding: 10px;
+    background-color: #2D303D;
+    font-size: 14px;
+    border-radius: 10px 0px 0px 0px;
+}
+.content{
+    padding-left:50px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    background-color: #323544;
+    border-radius: 0px 0px 0px 10px;
+}
+.num{
+    font-size: 90px;
+    font-weight: 700;
+}
+.custom{
+    color: var(--second-color);
+    margin: 20px 0;
+}
+.content span{
+    margin-right: 20px;
+}
+.content span img{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.date-two{
+    padding: 10px;
+    background-color: var(--main-color);
+    font-size: 14px;
+}
+.second-day{
+    padding: 50px 20px 10px;
+    background-color: #262936;
+}
+.temp-second-day .temp-one{
+    font-size:24px;
+    font-weight: 700;
+    color: white;
+}
+.temp-second-day .temp-two{
+    font-weight: 300;
+    color: white;
+}
+.date-there{
+    padding: 10px;
+    background-color: #2D303D;
+    font-size: 14px;
+}
+.third-day {
+    padding: 50px 20px 10px;
+    background-color: #323544;
+}
+.temp-third-day .temp-one{
+    font-size:24px;
+    font-weight: 700;
+    color: white;
+}
+.temp-third-day .temp-two{
+    font-weight: 300;
+    color: white;
+}
